@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "TInkerLab",
-  description: "A store of useful softwares made by a tinkerer",
+  description: "A store of useful softwares I guess",
 };
 
 export default function RootLayout({
