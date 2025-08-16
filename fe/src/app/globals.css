@@ -33,6 +33,7 @@ body {
   box-shadow: 6px 6px 0 #111;
   transition: transform 150ms ease, box-shadow 150ms ease;
   color: #111;
+  position: relative;
 }
 .neo-card:hover {
   transform: translate(-2px, -2px);

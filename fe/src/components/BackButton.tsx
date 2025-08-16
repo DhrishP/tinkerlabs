@@ -25,6 +25,7 @@ export default function BackButton({ homeHref = "/" }: { homeHref?: string }) {
       className="neo-button neo-fab"
       onClick={handleClick}
       title="Back"
+      style={{ zIndex: 60 }}
     >
       ←
     </button>
