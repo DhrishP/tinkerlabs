@@ -5,7 +5,7 @@ export default function BackButton({ homeHref = "/" }: { homeHref?: string }) {
     <Link
       href={homeHref}
       aria-label="Go back"
-      className="neo-button neo-fab"
+      className="neo-button neo-fab text-2xl font-bold"
       title="Back"
     >
       ←
