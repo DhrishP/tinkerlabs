@@ -125,21 +125,4 @@ body {
 }
 
 /* Hero banner styles */
-.hero {
-  position: relative;
-  overflow: hidden;
-  border-radius: 20px;
-}
-.hero .hero-title {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px 18px;
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.9);
-  border: 5px solid #111;
-  box-shadow: 6px 6px 0 #111;
-  font-weight: 900;
-  color: #111;
-}
+/* hero styles removed since we no longer show the image banner */
