@@ -5,13 +5,11 @@ import { ToolCard } from "../components/ToolCard";
 
 export default function Home() {
   return (
-    <div className="min-h-screen p-6 sm:p-10">
+    <div className="min-h-screen p-6 sm:p-10 playful-bg">
       <header className="mb-8 flex items-end justify-between gap-6">
         <div>
-          <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight" style={{ textShadow: "4px 4px 0 #111" }}>
-            TInkerLab
-          </h1>
-          <p className="text-base mt-2 max-w-xl">
+          <h1 className="headline-vibe text-4xl sm:text-5xl font-extrabold tracking-tight">TInkerLab</h1>
+          <p className="text-base mt-3 max-w-xl text-black">
             A store of useful softwares made by a tinkerer
           </p>
         </div>

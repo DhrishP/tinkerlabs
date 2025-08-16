@@ -17,7 +17,7 @@ export default async function ToolPage({ params }: PageProps) {
   if (!tool) return notFound();
 
   return (
-    <div className="max-w-3xl mx-auto p-6 sm:p-10">
+    <div className="max-w-3xl mx-auto p-6 sm:p-10 playful-bg">
       <Link href="/" className="text-sm opacity-80 hover:underline">← Back to TInkerLab</Link>
       <div className="mt-4 palette-b p-3 rounded-2xl">
         <div className="neo-card overflow-hidden">
@@ -25,7 +25,7 @@ export default async function ToolPage({ params }: PageProps) {
             <Image src={tool.thumbnail} alt={tool.title} fill sizes="100vw" className="object-cover" />
           </div>
           <div className="tile-label">{tool.title}</div>
-          <div className="p-5">
+          <div className="p-5 text-black">
             <p className="text-base leading-relaxed">{tool.description}</p>
             <div className="mt-6">
               <a

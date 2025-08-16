@@ -32,6 +32,7 @@ body {
   border-radius: 16px;
   box-shadow: 6px 6px 0 #111;
   transition: transform 150ms ease, box-shadow 150ms ease;
+  color: #111;
 }
 .neo-card:hover {
   transform: translate(-2px, -2px);
@@ -48,6 +49,7 @@ body {
   border-radius: 10px;
   background: #ffe24b;
   box-shadow: 3px 3px 0 #111;
+  color: #111;
 }
 .neo-button:hover { background: #ffd100; }
 
@@ -62,6 +64,7 @@ body {
   padding: 6px 12px;
   font-weight: 800;
   box-shadow: 3px 3px 0 #111;
+  color: #111;
 }
 
 .palette-a { background: #fef3c7; }
@@ -69,3 +72,25 @@ body {
 .palette-c { background: #fce7f3; }
 .palette-d { background: #dcfce7; }
 .palette-e { background: #ede9fe; }
+
+/* ensure readable text inside light tiles */
+.palette-a, .palette-b, .palette-c, .palette-d, .palette-e { color: #111; }
+
+/* Playful site background and headline styling */
+.playful-bg {
+  background-image:
+    repeating-linear-gradient(45deg, #f9fafb 0, #f9fafb 28px, #f3f4f6 28px, #f3f4f6 56px),
+    radial-gradient(1px 1px at 12px 12px, rgba(0,0,0,.06) 1px, transparent 0);
+  background-size: auto, 24px 24px;
+}
+
+.headline-vibe {
+  display: inline-block;
+  background: #ffe24b;
+  border: 5px solid #111;
+  border-radius: 16px;
+  padding: 8px 16px;
+  box-shadow: 6px 6px 0 #111;
+  color: #111;
+  transform: rotate(-1deg);
+}
